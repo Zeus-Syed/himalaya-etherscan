@@ -3,8 +3,9 @@ Project Title: Etherscan Address Fetcher
 
 Steps to install:
 1. Clone repo from "https://github.com/Zeus-Syed/himalaya-etherscan.git"
-2. run "npm install"
-3. run "npm start" to run app
+2. cd "project directory"
+3. run "npm install"
+4. run "npm start" to run app
 
 API:
 
