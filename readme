@@ -6,6 +6,7 @@ Steps to install:
 2. cd "project directory"
 3. run "npm install"
 4. run "npm start" to run app
+5. run "npm test" to run test scenarios
 
 API:
 
