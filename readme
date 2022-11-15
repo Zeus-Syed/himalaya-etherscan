@@ -1,0 +1,19 @@
+Name: Syed Nadeem N
+Project Title: Etherscan Address Fetcher
+
+Steps to install:
+1. Clone repo from "https://github.com/Zeus-Syed/himalaya-etherscan.git"
+2. run "npm install"
+3. run "npm start" to run app
+
+API:
+
+GET - 'http://localhost:5000/balance/getAddressBalance'
+ 
+ - returns response of default addresses
+
+
+GET - 'http://localhost:5000/balance/getAddressBalance?addresses=0xde0b295669a9fd93d5f28d9ec85e40f4cb697bae,0x39a582bE8039a526Bdf4730e4D1E3E0fE1Bc811b'
+
+- returns response of passed addresses in url as query parameter "addresses"
+- to add more addresses, add addresses one by one followed by ',' at the end of url
